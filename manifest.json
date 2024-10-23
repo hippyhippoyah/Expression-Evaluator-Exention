@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Math Expression Evaluator",
   "version": "1.0",
-  "description": "Evaluates mathematical expressions from selected text.",
+  "description": "Evaluates mathematical expressions from selected text. Can either right click and select or use the keyboard shortcut : Command E.",
   "permissions": ["contextMenus", "scripting", "activeTab"],
   "background": {
     "service_worker": "background.js"
@@ -16,8 +16,8 @@
   "commands": {
     "evaluate-selected-text": {
       "suggested_key": {
-        "default": "Ctrl+Shift+E",  
-        "mac": "Command+Shift+E"
+        "default": "Ctrl+E",  
+        "mac": "Command+E"
       },
       "description": "Evaluate selected mathematical expression"
     }
