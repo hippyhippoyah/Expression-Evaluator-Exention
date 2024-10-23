@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Math Expression Evaluator",
+  "version": "1.0",
+  "description": "Evaluates mathematical expressions from selected text.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["math.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
