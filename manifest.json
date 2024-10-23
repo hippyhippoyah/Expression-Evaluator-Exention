@@ -12,5 +12,14 @@
       "resources": ["math.min.js"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "commands": {
+    "evaluate-selected-text": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",  
+        "mac": "Command+Shift+E"
+      },
+      "description": "Evaluate selected mathematical expression"
+    }
+  }
 }
